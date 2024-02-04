@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <section>
+        <h1>Personal Data</h1>
+        <form>
+            <div class="name">
+                <h2>Your Name</h2>
+                <div class="firstName">
+                    <label for="firstName"> FirstName : </label>
+                    <input type="text" name="firstName" id="firstName" />
+                </div>
+                <div class="lastName">
+                    <label for="lastName"> LastName : </label>
+                    <input type="text" name="lastName" id="lastName" />
+                </div>
+            </div>
+            <div class="num">
+                <div class="phone">
+                    <label for="phone"> phone : </label>
+                    <input type="number" name="phone" id="phone" />
+                </div>
+                <div class="email">
+                    <label for="email"> Email :</label>
+                    <input type="email" name="email" id="email" required />
+                </div>
+                <div class="pw">
+                    <label for="pw"> Password :</label>
+                    <input type="password" name="pw" id="pw" required />
+                </div>
+                <div class="re-pw">
+                    <label for="re-pw"> re-Password :</label>
+                    <input type="password" name="re-pw" id="re-pw" required />
+                </div>
+            </div>
+            <div class="select-1">
+                <div class="select">
+                    <label for="male"> Male : </label>
+                    <input type="radio" name="kinda" id="male" />
+                </div>
+                <div class="select">
+                    <label for="female"> FeMale : </label>
+                    <input type="radio" name="kinda" id="female" />
+                </div>
+            </div>
+            <div class="select-1">
+                <div class="select">
+                    <label for="student"> student : </label>
+                    <input type="radio" name="graduted" id="student" />
+                </div>
+                <div class="select">
+                    <label for="graduted"> graduted : </label>
+                    <input type="radio" name="graduted" id="graduted" />
+                </div>
+            </div>
+            <div class="car">
+                <label for="graduted"> choose a car : </label>
+                <select name="car" id="car">
+                    <option value="Mercedes">Mercedes CLA</option>
+                    <option value="car">Car</option>
+                    <option value="cairo">Cairo</option>
+                </select>
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</body>
+
+</html>
